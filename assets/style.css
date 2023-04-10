@@ -71,8 +71,7 @@ a {
     padding-top: 13px;
 }
 
-
-.content section p {
-    float: right;
-    color: #3f5562;
+.flex-container section h3 {
+    display: flex;
+    flex-direction: row;
 }
