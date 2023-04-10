@@ -7,14 +7,14 @@
 body {
     background-color: #d9dcd6;
 }
-/* class selector for menu */
+
 .header {
     padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3f5562;
     color: #3f5562;
 }
-/* all h1's in menu class */
+
 .header h1 {
     display: inline-block;
     font-size: 45px;
@@ -71,7 +71,43 @@ a {
     padding-top: 13px;
 }
 
-.flex-container section h3 {
+.flex-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.flex-items {
+    text-align: start;
+}
+
+.flex-header {
+    text-align: end;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    color: #3f5562;
+    font-size: 45px;
+}
+
+.flex-header::after {
+    content: "";
+    border: 2px solid #3f5562;
+    margin-left: 20px;
+}
+
+
+.work-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    
 }
