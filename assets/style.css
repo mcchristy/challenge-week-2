@@ -55,9 +55,12 @@ a {
     padding-right: 1px;
 }
 
+
 .border-left{
     border-left:3px solid #3f5562;
     padding-left:20px;
+    font-size: 20px;
+    display: inline-block;
 }
 .top-photo {
     position: relative;
@@ -93,7 +96,7 @@ a {
     text-align: end;
     padding-left: 100px;
     padding-right: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     color: #3f5562;
     font-size: 45px;
 }
@@ -119,7 +122,7 @@ a {
     height: 300px;
     width: 100%;
     flex-wrap: wrap;
-    border: #7bada4 solid 2px;
+    border: #3f5562 solid 4px;
 }
 
 #big-button img{
@@ -128,7 +131,7 @@ a {
 }
 .work-buttons {
     width: 50%;
-    border: #7bada4 solid 2px;
+    border: #3f5562 solid 4px;
 }
 
 .work-buttons img{
