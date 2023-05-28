@@ -1,7 +1,7 @@
 # challenge-week-2 My Portfolio
 This project was designed to help me create a base for my coding portfolio.
 
-![deployed portfolio website](assets/deployed-portfolio.jpg)
+![deployed portfolio website](./assets/images/deployed-portfolio.jpg)
 
 ## Table of Contents
 -[About] 
